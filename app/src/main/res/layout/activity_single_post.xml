@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:context=".SinglePostActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/singleImageview"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/singleTitle"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Post Title"
+            android:textColor="#100d0d"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/company"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Company"
+            android:textColor="#100d0d"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Description"
+            android:id="@+id/singleDesc"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/qualifications"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Qualifications"
+            android:textColor="#100d0d"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/link"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Job link"
+            android:textColor="#100d0d"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="contact"
+            android:textColor="#100d0d"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePeriod"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Time Period"
+            android:textColor="#100d0d"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/salary"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="salary"
+            android:textColor="#100d0d"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="post job"
+            android:background="#FFEA0404"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

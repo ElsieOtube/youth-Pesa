@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/user">
+        <menu>
+            <group android:checkableBehavior="single" android:id="@+id/group_one">
+                <item
+                    android:id="@+id/Profile"
+                    android:title="@string/profile" />
+
+                <item
+                    android:id="@+id/Payment"
+                    android:title="@string/payment"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/communication">
+        <menu>
+
+            <group android:checkableBehavior="single" android:id="@+id/group_two">
+                <item
+                    android:id="@+id/contact_us"
+                    android:title="@string/contact_us" />
+
+                <item
+                    android:id="@+id/about_us"
+                    android:title="@string/about_us" />
+
+                <item
+                    android:id="@+id/share_app"
+                    android:title="@string/share_app" />
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@mipmap/ic_logout"/>
+</menu>
